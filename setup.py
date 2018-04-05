@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
 
     # List all resources we'll distribute
-    include_files = gtk_resources() + dlls() + pympress_resources() if use_cxfreeze else []
+    include_files = [] #gtk_resources() + dlls() + pympress_resources() if use_cxfreeze else []
 
     if include_vlc:
         try:
